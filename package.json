@@ -1,0 +1,21 @@
+{
+  "name": "user-media-wrapper",
+  "version": "0.1.0",
+  "author": "Rostyslav Bohomaz <rostyslav.db@gmail.com>",
+  "license": "MIT",
+  "module": "dist/user-media-wrapper.js",
+  "types": "dist/user-media-wrapper.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "npm run build",
+    "dev": "rollup -cw"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.0",
+    "rollup": "^2.66.1",
+    "typescript": "^4.5.5"
+  }
+}
